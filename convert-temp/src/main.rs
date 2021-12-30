@@ -38,7 +38,7 @@ fn main() {
             println!("Temperature in fahrenheit is {:.2}", changed_temp);
         }
         println!("=========================================");
-        print!("Do you want to continue [y|n]?");
+        print!("Do you want to continue [y|n]?: ");
         io::stdout().flush().unwrap();
         let mut is_continue = String::new();
         io::stdin()
